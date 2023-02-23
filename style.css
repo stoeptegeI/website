@@ -40,13 +40,13 @@ html {
 }
 
 #location{
-    font-family: 'Montserrat';
+    font-family: fantasy;
     font-weight: 500;
-    font-size: 24px;
-    background: -webkit-linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 35%);
+    font-size: 30px;
+    background: -webkit-linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 35%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 8, 8);
 }
 
 #pin {
@@ -82,15 +82,25 @@ html {
 
 #spotify {
     scale: 1.2;
-    color: green;
     transition: 0.4s ease-out;
 }
 
 #discord {
     scale: 1.2;
-    color: rgb(88, 101, 242);
     transition: 0.4s ease-out;
     padding: 0rem 0.25rem;
+}
+
+#ps4 {
+    scale: 1.2;
+}
+
+#yt {
+    scale: 1.2;
+}
+
+#insta {
+    scale: 1.2;
 }
 
 #github {
@@ -98,7 +108,7 @@ html {
     transition: 0.4s ease-out;
 }
 
-#spotify:hover,#github:hover,#discord:hover {
+#spotify:hover,#tiktok:hover,#insta:hover,#yt:hover,#ps4:hover,#github:hover,#discord:hover {
     scale: 1.5;
     transition: 0.2 ease-out;
     cursor: pointer;
